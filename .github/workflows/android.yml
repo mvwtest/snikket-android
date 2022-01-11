@@ -27,6 +27,7 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: Snikket all-flavors (debug)
-        path: ./build/outputs/apk/**/debug/Snikket-*.apk
+        #path: ./build/outputs/apk/**/debug/Snikket-*.apk
+        path: /home/runner/work/snikket-android/snikket-android/build/outputs/apk/conversationsFreeSystem/debug/Snikket-2.10.2-conversations-free-system-universal-debug.apk
 
       
